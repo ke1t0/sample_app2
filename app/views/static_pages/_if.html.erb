@@ -11,6 +11,12 @@
       </section>
     </aside>
     <div class="col-md-8">
+      <div class="home-search">
+        <%= form_tag root_path, :method => 'get' do %>
+          <%= text_field_tag :search, params[:search], class: "form-control", placeholder: "Find post" %>
+          <%= submit_tag "search", :name => nil, class: "btn btn-primary" %>
+        <% end %>
+      </div>
       <h3>Micropost Feed</h3>
       <%= render 'shared/feed' %>
     </div>

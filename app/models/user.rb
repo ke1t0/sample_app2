@@ -95,6 +95,14 @@ has_many :followers, through: :passive_relationships, source: :follower
     following.include?(other_user)
   end
 
+  def self.search(search)
+    if search
+      where(['name LIKE ?', "%#{search}%"])
+    else
+      all
+    end
+  end
+
   private
 
     # メールアドレスをすべて小文字にする
