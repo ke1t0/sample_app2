@@ -3,7 +3,7 @@
 [*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 [Michael Hartl](http://www.michaelhartl.com/) 著
 
-##ログインについて
+## ログインについて
 
 helpページにてログイン用のIDとパスワードを記載しておりますのでご覧ください。
 
