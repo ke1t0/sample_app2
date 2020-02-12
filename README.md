@@ -3,6 +3,10 @@
 [*Ruby on Rails チュートリアル*](https://railstutorial.jp/)
 [Michael Hartl](http://www.michaelhartl.com/) 著
 
+##ログインについて
+
+helpページにてログイン用のIDとパスワードを記載しておりますのでご覧ください。
+
 ## ライセンス
 
 [Ruby on Rails チュートリアル](https://railstutorial.jp/)内にある
